@@ -138,11 +138,11 @@ main a:hover {
     transition: 0.7s;
 }
 
-main>img {
+main img {
     width: 100%;
 }
 
-main>article>img.pequena {
+main article img.pequena {
     display: block;
     max-width: 350px;
     margin: auto;
@@ -197,7 +197,12 @@ footer {
     font-size: 0.8em;
     padding: 5px;
     height: 50px;
+    
+}
+
+.paragrafo-footer{
     position: relative;
+    height: 50px;
 }
 
 footer p{    
